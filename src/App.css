@@ -1,0 +1,31 @@
+*{
+  box-sizing: border-box;
+  font-family: 'Comfortaa', cursive;
+}
+.main-image{
+  background-repeat: no-repeat;
+  background-image: url(../src/assets/images/bg1.jpg);
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  min-height: 100vh;
+  opacity: 1;
+  z-index: 20;
+  visibility: inherit;
+  position: inherit;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+.banner-img{
+  background-repeat: no-repeat;
+  background-image: url('../src/assets/images/banner1.png');
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  min-height: 100vh;
+  opacity: 1;
+  z-index: 20;
+  visibility: inherit;
+  position: inherit;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+}
